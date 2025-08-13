@@ -9,7 +9,14 @@ func main() {
 	// oddoreven()
 	// fibonacci()
 	// calculator()
-	 crud();
+	// crud();
+	s, d, p, q := calculate(10, 5)
+	fmt.Println("Sum:", s)
+	fmt.Println("Difference:", d)
+	fmt.Println("Product:", p)
+	fmt.Println("Quotient:", q)
 
-	 fmt.Println("this page is main")
+
+	
+	fmt.Println("this page is main")
 }
