@@ -10,11 +10,17 @@ func main() {
 	// fibonacci()
 	// calculator()
 	// crud();
-	s, d, p, q := calculate(10, 5)
-	fmt.Println("Sum:", s)
-	fmt.Println("Difference:", d)
-	fmt.Println("Product:", p)
-	fmt.Println("Quotient:", q)
+	// s, d, p, q := calculate(10, 5)
+	// fmt.Println("Sum:", s)
+	// fmt.Println("Difference:", d)
+	// fmt.Println("Product:", p)
+	// fmt.Println("Quotient:", q)
+	res,err:=divide(10,10)
+	if err !=nil{
+		fmt.Errorf("We got a error: ",err)
+		return
+	}
+	fmt.Println("Result is : ",res)
 
 
 	
