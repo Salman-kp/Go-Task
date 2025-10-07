@@ -8,11 +8,12 @@ func Arrayminmax() {
 	min := array[0]
 	max := array[0]
 
-	for i := 0; i < len(array); i++ {
-		if min > array[i] {
-			min = array[i]
-		}
-	}
+	  for index,_:=range array{
+        if min>array[index]{
+            min=array[index]
+        }
+    }
+	
 	for j := 0; j < len(array); j++ {
 		if max < array[j] {
 			max = array[j]

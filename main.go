@@ -38,7 +38,12 @@ func main() {
 	//  fmt.Println(arithmetic.Add(20,20))
 
 
-	 Arrayminmax()
+	// Arrayminmax()
+    // Dublicate:=duplicate()
+	// fmt.Println(Dublicate)
+
+	studentmark()
+	
 
 	fmt.Println("this page is main")
 }
